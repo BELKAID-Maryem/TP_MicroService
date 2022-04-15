@@ -22,5 +22,42 @@ cette dependance qu'on a telecherger on retouve dans le fichier pom.xml
 
 - Le demarage de cette application donne:
 
+- Base de donnees: localhost:8080/h2-console compte_db 
+
+- Creer un Rest controller :
+
+![image](https://user-images.githubusercontent.com/102295113/163501473-513951d3-37da-403e-80e2-0b43b0c1a87c.png)
+
+- Avans l'execution de ce code on a besion de changer le port car on a creer plusieur micro service dans la meme machine et pour changer le port il suffit d'ajouter server.port = 8082 par exemple dans le fichier application.properties et apers l'execution on a :
+
+- Et pour consulter un solde il suffit d'ajouter la methode suivant dans la classe CompteRestController :
+
+![image](https://user-images.githubusercontent.com/102295113/163502585-c08cd3d4-aa04-44bb-b143-eee14417ed92.png)
+
+- Et pour tester il suffit de specifier le code de compte dans url :
+
+- Pour ajouter un compte il suffit d'ajouter la methode suivant dans la classe CompteRestController :
+
+![image](https://user-images.githubusercontent.com/102295113/163504031-a76a0847-6f7c-4672-8dea-0841d052ab34.png)
+
+- L'execution de ce code donne:
+
+- Pour modifier un compte il suffit d'ajouter la methode suivant dans la classe CompteRestController :
+
+![image](https://user-images.githubusercontent.com/102295113/163504106-3267603b-8396-47ac-9bb7-2386a0c09fb2.png)
+
+- L'execution de ce code donne:
+
+- Pour supprimer un compte il suffit d'ajouter la methode suivant dans la classe CompteRestController :
+
+![image](https://user-images.githubusercontent.com/102295113/163504213-1218e318-1478-467e-a1cb-34771158cf5e.png)
+
+
+                                   سنعود بعد قليل -_- 
+                                   
+ 
+
+
+
 
    
